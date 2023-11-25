@@ -1,0 +1,27 @@
+.header{
+  background-color: #FF7293;
+  width: 100%;
+  max-height: 10%;
+  min-height: 10%;
+  position: fixed;
+  border: none;
+  overflow: hidden;
+}
+
+.btn-home {
+  background-color: transparent;
+  max-width: 100%;
+  max-height: 100%;
+  border: 1px solid #da0000;
+  margin: 7px 0 7px 60px;
+  padding: 0;
+}
+
+.img-home {
+  width: 106px;
+  height: auto;
+}
+
+.btn-home img:hover {
+  transform: scale(1.08);
+}

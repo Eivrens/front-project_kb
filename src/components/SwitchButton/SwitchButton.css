@@ -1,0 +1,47 @@
+.switch-button {
+  width: 280px;
+  height: 30px;
+  /* border: 1px solid red; */
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  background-color: #dc7184;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.switch-button > div {
+}
+
+/* seleciona a primeira div filha */
+.switch-button > div:nth-child(1) {
+  background-color: #c34a5f;
+  width: 140px;
+  height: 30px;
+  border-radius: 20px;
+  position: absolute;
+  transition: all 1.2s;
+}
+/* seleciona a segunda div filha */
+.switch-button > div:nth-child(2) {
+  position: absolute;
+  width: 140px;
+  color: white;
+  font-weight: bolder;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+}
+
+.switch-button > div:nth-child(3) {
+  position: absolute;
+  width: 140px;
+  color: white;
+  font-weight: bolder;
+  margin-left: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+}

@@ -1,25 +1,38 @@
 .floatMenu{
     position: absolute;
-    top: 150px;
-    right: 5px;
-    transform: translate(-50%, -50%);
+    top:63px;
+    right: 3.8%;
     background-color: #F1F0F5;
     border: 1px solid rgb(204, 204, 204);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    z-index: 200;
-    width: 250px;
-    height: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.541);
+    width: max-content;
+    height: auto;
     border-radius: 5px;
-    display: flex;
+    display: grid;
+    z-index: 250;
+    grid-template-rows: repeat(auto-fill, minmax(70px, auto));
 }
 
-.floatMenu ul {
-    list-style-type: none;
-    padding: 2px;
-}
 
-.floatMenu  li {
-    margin-bottom: 10px;
+.floatMenuContainer{
+    /* background-color: #F1F0F5;
+    border: 1px solid rgb(204, 204, 204); */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.541); */
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    display: grid;
+    z-index: 300;
+    grid-template-rows: repeat(auto-fill, minmax(70px, auto));
+}
+.floatContainer{
+    width: 240px;
+    height: auto;
+    /* max-height: 44px;  */
+    margin: 13px 5px;
+    background-color: rgba(210, 213, 212, 0);
+    
+    
 }
 
 .floatMenu button {
@@ -47,4 +60,23 @@
     color: #FF7293;
     margin-left: 10px;
     padding: 5px;
+}
+
+
+.floatContainer hr{
+    
+    background-color: #C6C5CE;
+    height: 2.5px;
+    border-radius: 1px;
+    position: relative;
+    margin: 5px;
+    
+}
+
+.floatContainer span{
+    text-transform: none;
+    font-size: 14px;
+    text-decoration: bolder;
+    position: relative;
+    top: 5px;
 }

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.floatMenu{
+    position: absolute;
+    top:63px;
+    right: 3.8%;
+    background-color: #F1F0F5;
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.616);
+    width: max-content;
+    height: auto;
+    border-radius: 10px;
+    display: grid;
+    z-index: 250;
+    grid-template-rows: repeat(auto-fill, minmax(70px, auto));
+}
+
+
+.floatMenuContainer{
+    /* background-color: #F1F0F5;
+    border: 1px solid rgb(204, 204, 204); */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.541); */
+    width: 250px;
+    height: auto;
+    border-radius: 0px;
+    display: grid;
+    z-index: 300;
+    grid-template-rows: repeat(auto-fill, minmax(70px, auto));
+}
+.floatContainer{
+    width: 240px;
+    height: auto;
+    /* max-height: 44px;  */
+    margin: 13px 5px;
+    background-color: rgba(210, 213, 212, 0);
+    
+    
+}
+
+.floatMenu button {
+    background: none;
+    font-size: larger;
+  color: #FF7293;
+  border: none;
+  padding: 1px;
+  cursor: pointer;
+  width: 10px;
+  height: 20px;
+  position: relative;
+  left: 220px;
+  top: 5px;
+}
+.floatMenu  img{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    margin-right: 10px;
+}
+.floatMenu a{
+    font-size: larger;
+    display: flex;
+    color: #FF7293;
+    margin-left: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.floatContainer hr{
+    
+    background-color: #C6C5CE;
+    height: 2.5px;
+    border-radius: 1px;
+    position: relative;
+    margin: 2px;
+    
+}
+
+.floatContainer span{
+    text-transform: none;
+    font-size: 14px;
+    font-weight: bolder;
+    position: relative;
+    top: 1.5px;
+    font-family: 'Poppins', sans-serif;
+}

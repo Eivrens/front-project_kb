@@ -15,5 +15,5 @@ p {
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* Garante que a largura e altura incluem a borda e o preenchimento, mas não a margem */
+  box-sizing: border-box; 
 }

@@ -1,0 +1,19 @@
+.panel-body {
+  width: 1000px;
+  width: 69.44%;
+  height: 690px;
+  max-width: 69.44%;
+  max-height: 76.67%;
+  min-width: 69.44%;
+  min-height: 76.67%;
+  margin: 130px 0 60px 4.17%;
+}
+
+.body {
+  justify-content: center;
+  display: flex;
+}
+
+.footers-body {
+  margin: 0 4.27% 0 0;
+}

@@ -1,5 +1,5 @@
 import Header from "../../components/Header/Header";
-
+import Body from "../../components/Body/Body";
 import "./Home.css";
 
 export default function Home() {
@@ -8,7 +8,9 @@ export default function Home() {
       <div className="header-home">
         <Header />
       </div>
-      <div className="body-home"></div>
+      <div className="body-home">
+        <Body />
+      </div>
     </div>
   );
 }

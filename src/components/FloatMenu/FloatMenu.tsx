@@ -2,7 +2,11 @@ import React, { useEffect, useRef } from 'react';
 import './FloatMenu.css';
 import login from '../../assets/icons/login-96.png';
 
-function FloatMenu({ onClose }) {
+interface FloatMenuProps{
+  onClose: () => void;
+}
+
+function FloatMenu({ onClose }: FloatMenuProps) {
 
   return (
     <div className='floatMenu' >
@@ -14,13 +18,13 @@ function FloatMenu({ onClose }) {
           </a>
           <hr />
         </div>
-        {/* <div className='floatContainer'>
+        <div className='floatContainer'>
           <a>
             <img src={login} alt='Login Icon' />
-            <span>Login</span>
+            <span>TESTE</span>
           </a>
           <hr />
-        </div> */}
+        </div>
 
       </div>
     </div>

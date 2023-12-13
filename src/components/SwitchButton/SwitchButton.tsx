@@ -5,7 +5,7 @@ function SwitchButton({  }) {
 
   const [active, setActive] = useState(false);
 
-  const onClickHandler = (e) => {
+  const onClickHandler = () => {
     setActive(!active);
     
   };

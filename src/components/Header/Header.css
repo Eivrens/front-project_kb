@@ -1,45 +1,42 @@
 .header {
   background-color: #ff7293;
-  width: auto;
-  height: 90px;
+  min-width: 100vw;
+  min-height: 10vh;
+  max-width: 100vw;
+  max-height: 10vh;
   border: none;
   overflow: hidden;
   display: flex;
   justify-content: center;
-  margin: 0;
+  margin: auto;
 }
 
-.btn-home {
-  background-color: transparent;
-  max-width: 100%;
-  max-height: 100%;
-  border: none;
-  margin: 5px 0 4px 4.17%;
-  padding: 0;
-  cursor: pointer;
+/* logo home */
+.componentLogo {
+  align-items: center;
+  justify-content: center;
+  min-width: 7.78%;
+  min-height: 90%;
+  max-width: 7.78%;
+  max-height: 90%;
+  margin: 0.5556% 0 0.4444% 4.17%;
 }
-
-.img-home {
-  width: 106px;
-  height: auto;
-}
-
-.btn-home img:hover {
+.componentLogo:hover {
   transition: 1.3s;
 }
 
 /* switch button */
 
-.component-switch {
+.componentSwitch {
   align-items: center;
   width: auto;
   height: 30px;
-  margin: 30px 0 30px 4.71%;
+  margin: 1.66665% 0 1.66665% 5.1929%;
 }
 
 /* menu button */
 
-.component-menu {
+.componentMenu {
   min-height: 33.33%;
   min-width: 2.08%;
   height: 33.33%;

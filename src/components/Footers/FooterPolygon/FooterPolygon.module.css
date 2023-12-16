@@ -1,0 +1,16 @@
+.teamPolygon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.teamPolygon > img {
+  width: 15px;
+  margin-left: 10px;
+}
+
+.teamPolygon > p {
+  font-size: 8px;
+  font-family: poppins, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-left: 3px;
+}

@@ -5,8 +5,9 @@ import urlBase from './urlBase.js';
 export async function getFunctionPets() {
   try {
     const response = await axios.get(`${urlBase}pets/get`);
-    const dataConverted = JSON.parse(response.data);
-    return dataConverted;
+    console.log(response.data);
+    console.log(typeof response.data);
+    return response.data.pets;
   } catch (err) {
     console.log('Erro ao puxar dados', err);
     throw err;

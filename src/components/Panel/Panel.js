@@ -18,14 +18,14 @@ export default function Panel() {
     }
     loadData();
   }, []);
-  console.log(dataAPI);
+
   return (
     <div className="panel">
       <div className="position-header-panel">
         <HeaderPanel />
       </div>
       <div className="position-body-panel">
-        <MiniModal data={dataAPI}/>
+        <MiniModal data={dataAPI} />
       </div>
     </div>
   );

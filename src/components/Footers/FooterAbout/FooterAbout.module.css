@@ -1,0 +1,23 @@
+.headerAbout {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 0 8px;
+}
+.headerAbout > p {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: poppins, Arial, Helvetica, sans-serif;
+  margin-left: 8px;
+}
+
+.headerAbout > img {
+  width: 24px;
+  height: 24px;
+}
+
+.bodyAbout {
+  margin: 13px 0 0 121px;
+}
+.bodyAbout > a > img {
+  width: 48px;
+}

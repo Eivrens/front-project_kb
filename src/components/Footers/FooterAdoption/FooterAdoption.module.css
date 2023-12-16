@@ -1,0 +1,42 @@
+.headerAdoptions {
+  margin: 10px 0 0 9px;
+  display: flex;
+  align-items: center;
+}
+.headerAdoptions > img {
+  width: 24px;
+}
+.headerAdoptions > p {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: poppins, Arial, Helvetica, sans-serif;
+  margin-left: 7px;
+}
+
+.bodyAdoptions {
+  margin: 0;
+  padding: 0;
+}
+.imgAdoption {
+  border-radius: 10px;
+  margin: 12px 55px 0 55px;
+}
+.iconBalls {
+  margin: 0 0 4px 131px;
+}
+
+.descriptionAdopition {
+  background-color: #dc7184;
+  border-radius: 10px;
+  width: 250px;
+  height: 50px;
+  margin-left: 20px;
+  margin-bottom: 19px;
+  font-family: poppins, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  text-align: center;
+}
+.descriptionAdopition > p {
+  padding-top: 3px;
+}

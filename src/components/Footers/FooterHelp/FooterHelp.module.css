@@ -1,0 +1,26 @@
+.headerHelp {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 0 8px;
+}
+.headerHelp > p {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: poppins, Arial, Helvetica, sans-serif;
+  margin-left: 8px;
+}
+
+.headerHelp > img {
+  width: 24px;
+  height: 24px;
+}
+
+.bodyHelper {
+  margin: 13px 0 0 61px;
+}
+.bodyHelper > a > img {
+  width: 48px;
+}
+.iconBank {
+  margin-left: 72px;
+}

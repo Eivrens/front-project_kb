@@ -1,0 +1,28 @@
+.headerfollow {
+    display: flex;
+    justify-content: left;
+    color: #f1f0f5;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.rsociais {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+
+#tiktok {
+    width: 48px;
+    height: 48px;
+}
+
+#instagram {
+    width: 48px;
+    height: 48px;
+}
+
+#logopegada {
+    width: 24px;
+    height: 24px;
+}

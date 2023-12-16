@@ -1,0 +1,23 @@
+.headerhelp {
+    display: flex;
+    justify-content: left;
+    color: #f1f0f5;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.pixetc {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+
+#pix {
+    width: 48px;
+    height: 48px;
+}
+
+#logohelp {
+    width: 24px;
+    height: 24px;
+}

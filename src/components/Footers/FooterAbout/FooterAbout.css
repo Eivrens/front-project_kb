@@ -1,0 +1,19 @@
+.headerabout {
+    display: flex;
+    justify-content: left;
+    color: #f1f0f5;
+    margin-top: 8px;
+}
+
+#logoabout {
+    position: relative;
+    margin-left: 8px;
+    width: 24px;
+    height: 24px;
+}
+
+#sobrenos {
+    width: 48px;
+    height: 48px;
+    margin-left: 121px;
+}

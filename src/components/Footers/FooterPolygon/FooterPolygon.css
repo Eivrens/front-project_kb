@@ -1,0 +1,18 @@
+.polygon {
+    width: 220px;
+    height: 15px;
+    margin-left: 8px;
+    color: #f1f0f5;
+    display: flex;
+}
+
+.polygon > p {
+    margin-top: 3px;
+    margin-left: 2px;
+    font-size: 8px;
+}
+
+#logopolygon {
+    width: 15px;
+    height: 15px;
+}
